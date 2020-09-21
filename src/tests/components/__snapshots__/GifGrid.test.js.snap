@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <GifGrid /> debe mostrar componente <GifGrid /> correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__flipInX animate__slow"
+  >
+    Bart Simpson
+  </h3>
+  <p
+    className="animate__animated animate__flash animate__delay-2s"
+  >
+    cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`pruebas en <GifGrid /> debe mostrar items cuando se cargan imagenes useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__flipInX animate__slow"
+  >
+    Bart Simpson
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="abc"
+      key="abc"
+      title="Culquier titulo"
+      url="https://localhost/algo"
+    />
+    <GifGridItem
+      id="abcd"
+      key="abcd"
+      title="Culquier titulo"
+      url="https://localhost/algo"
+    />
+  </div>
+</Fragment>
+`;
